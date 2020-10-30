@@ -4,8 +4,7 @@
         $conn=new mysqli("mysql-pawelj.alwaysdata.net","pawelj","Jachimowski0719","pawelj_baza");
         $sql=$z_sql;
         echo("<h2>Polecenie $polecenie </h2>");
-        echo("<h3>Tabelka $nr_zadania</h3>");
-        echo("<h4>Zapytanie SQL: $sql</h4>");
+        echo("<h3>Tabelka $nr_zadania</h3>".$sql);
         $result=$conn->query($sql);
         echo("<table border=1>");
         echo("<th>id_pracownicy</th>");
