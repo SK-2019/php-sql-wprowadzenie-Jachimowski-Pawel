@@ -1,7 +1,7 @@
 <?php
     echo("<h1>Paweł Jachimowski</h1>");
     function worker($nr_zadania,$z_sql){
-        $conn=new mysqli("localhost","pawel","z_pawel","pawel");
+        $conn=new mysqli("mysql-pawelj.alwaysdata.net","pawelj","Jachimowski0719","pawelj_baza");
         $sql=$z_sql;
         echo("<h2>Tabelka $nr_zadania </h2>".$sql);
         $result=$conn->query($sql);
