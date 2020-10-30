@@ -1,3 +1,8 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
 <?php
     echo("<h1>Paweł Jachimowski Klasa 2Ti Nr.10</h1>");
     function worker($nr_zadania,$z_sql,$polecenie){
@@ -25,4 +30,5 @@ worker(4,"SELECT*FROM pracownicy where zarobki<30","stwórz 5 tabel");
 worker(5,"SELECT*FROM pracownicy where dzial=2 or dzial=1","stwórz 5 tabel");
     
 ?>
-
+ </body>
+</html>
