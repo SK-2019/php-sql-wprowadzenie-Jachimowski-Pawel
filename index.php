@@ -2,7 +2,7 @@
 require_once("connect.php");
     echo("<h1>Paweł Jachimowski Klasa 2Ti Nr.10</h1>");
     function worker($nr_zadania,$z_sql,$polecenie){
-        require_once("connect.php");
+        require("connect.php");
         $sql=$z_sql;
         echo("<h2>Polecenie $polecenie </h2>");
         echo("<h3>Tabelka $nr_zadania</h3>".$sql);
