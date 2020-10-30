@@ -1,9 +1,9 @@
 <?php
     echo("<h1>Paweł Jachimowski Klasa 2Ti Nr.10</h1>");
-    function worker($nr_zadania,$z_sql){
+    function worker($nr_zadania,$z_sql,$polecenie){
         $conn=new mysqli("mysql-pawelj.alwaysdata.net","pawelj","Jachimowski0719","pawelj_baza");
         $sql=$z_sql;
-        echo("<h2> $tpolecenie </h2>");
+        echo("<h2> $polecenie </h2>");
         echo("<h3>Tabelka $nr_zadania </h3>".$sql);
         $result=$conn->query($sql);
         echo("<table border=1>");
@@ -18,11 +18,11 @@
             }
         echo("</table>");
     }
-worker(1,"SELECT*FROM pracownicy");
-worker(2,"SELECT*FROM pracownicy where imie like'%a'");
-worker(3,"SELECT*FROM pracownicy where imie not like '%a'");
-worker(4,"SELECT*FROM pracownicy where zarobki<30");
-worker(5,"SELECT*FROM pracownicy where dzial=2 or dzial=1");
+worker(1,"SELECT*FROM pracownicy","stwórz 5 tabel");
+worker(2,"SELECT*FROM pracownicy where imie like'%a'","stwórz 5 tabel");
+worker(3,"SELECT*FROM pracownicy where imie not like '%a'","stwórz 5 tabel");
+worker(4,"SELECT*FROM pracownicy where zarobki<30","stwórz 5 tabel");
+worker(5,"SELECT*FROM pracownicy where dzial=2 or dzial=1","stwórz 5 tabel");
     
 ?>
 
