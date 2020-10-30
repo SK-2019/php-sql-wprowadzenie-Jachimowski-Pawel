@@ -1,5 +1,4 @@
 <?php
-require_once("connect.php");
     echo("<h1>Paweł Jachimowski Klasa 2Ti Nr.10</h1>");
     function worker($nr_zadania,$z_sql,$polecenie){
         require("connect.php");
