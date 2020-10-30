@@ -1,5 +1,5 @@
 <?php
-    echo("<h1>Paweł Jachimowski</h1>");
+    echo("<h1>Paweł Jachimowski Klasa 2Ti Nr.10</h1>");
     function worker($nr_zadania,$z_sql){
         $conn=new mysqli("mysql-pawelj.alwaysdata.net","pawelj","Jachimowski0719","pawelj_baza");
         $sql=$z_sql;
