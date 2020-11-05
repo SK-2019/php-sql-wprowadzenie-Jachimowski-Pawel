@@ -3,6 +3,9 @@
         <link rel="stylesheet" href="mainstyle.css">
         </head>
     <body>
+<div class="nav">
+<a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>
+</div>
 <?php
     echo("<h1>Paweł Jachimowski Klasa 2Ti Nr.10</h1>");
     function worker($nr_zadania,$z_sql,$polecenie){
@@ -28,6 +31,7 @@ worker(2,"SELECT*FROM pracownicy where imie like'%a'","stwórz 5 tabel");
 worker(3,"SELECT*FROM pracownicy where imie not like '%a'","stwórz 5 tabel");
 worker(4,"SELECT*FROM pracownicy where zarobki<30","stwórz 5 tabel");
 worker(5,"SELECT*FROM pracownicy where dzial=2 or dzial=1","stwórz 5 tabel");
+worker(6,"SELECT*FROM pracownicy where AVG(zarobki>30)","AVG zarobki");
     
 ?>
  </body>
