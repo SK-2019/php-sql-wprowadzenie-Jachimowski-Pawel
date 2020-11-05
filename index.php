@@ -31,8 +31,24 @@ worker(2,"SELECT*FROM pracownicy where imie like'%a'","stwórz 5 tabel");
 worker(3,"SELECT*FROM pracownicy where imie not like '%a'","stwórz 5 tabel");
 worker(4,"SELECT*FROM pracownicy where zarobki<30","stwórz 5 tabel");
 worker(5,"SELECT*FROM pracownicy where dzial=2 or dzial=1","stwórz 5 tabel");
-worker(6,"SELECT*FROM pracownicy where AVG(zarobki>30)","AVG zarobki");
-    
+?>
+<?php
+ function worker($nr_zadania,$z_sql,$polecenie){
+    require("connect.php");
+    $sql=$z_sql;
+    echo("<h2>Polecenie $polecenie </h2>");
+    echo("<h3>Tabelka $nr_zadania</h3>".$sql);
+    $result=$conn->query($sql);
+    echo("<table border=1>");
+    echo("<th>Wynik</th>");
+        while($row=$result->fetch_assoc()){
+            echo("<tr>");
+                echo("<td>".$row["Wynik"]."</td>");
+            echo("</tr>");
+        }
+    echo("</table>");
+}
+worker(6,"SELECT*FROM pracownicy AVG(zarobki) as Wynik","AVG zarobki");
 ?>
  </body>
 </html>
