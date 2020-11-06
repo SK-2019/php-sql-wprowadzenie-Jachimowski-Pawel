@@ -13,7 +13,7 @@
     function worker($nr_zadania,$z_sql,$polecenie){
         require("connect.php");
         $sql=$z_sql;
-        echo("<h2>Polecenie $polecenie </h2>");
+        echo("<h2>Polecenie: $polecenie </h2>");
         echo("<h3>Tabelka $nr_zadania</h3>".$sql);
         $result=$conn->query($sql);
         echo("<table border=1>");

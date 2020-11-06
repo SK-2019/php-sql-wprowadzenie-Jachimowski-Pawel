@@ -13,7 +13,7 @@
     function worker($nr_zadania,$z_sql,$polecenie){
         require("connect.php");
         $sql=$z_sql;
-        echo("<h2>Polecenie $polecenie </h2>");
+        echo("<h2>Polecenie: $polecenie </h2>");
         echo("<h3>Tabelka $nr_zadania</h3>".$sql);
         $result=$conn->query($sql);
         echo("<table border=1>");
@@ -36,7 +36,7 @@ worker(5,"SELECT *FROM pracownicy, organizacja WHERE id_org=dzial order by imie 
 worker(6,"SELECT *FROM pracownicy, organizacja WHERE id_org=dzial and dzial=3 order by imie asc","Pracownicy z działu 3 posotowani rosnąco po imieniu");
 worker(7,"SELECT *FROM pracownicy, organizacja WHERE id_org=dzial and imie like '%a' order by imie asc","Kobiety posortowane rosnąco po imieniu");
 worker(8,"SELECT *FROM pracownicy, organizacja WHERE id_org=dzial and imie like '%a' and dzial=1 or dzial=3  order by zarobki asc","Kobiety z działu 1 i 3 posortowane rosnąco po zarobkach");
-
+worker(9,"SELECT *FROM pracownicy, organizacja WHERE id_org=dzial and imie not like '%a' order by nazwa_dzial asc, zarobki asc","Mężczyźni posortowani rosnąco: po nazwie działu a następnie po wysokości zarobków");
 ?>
 
  </body>
