@@ -33,6 +33,10 @@ worker(2,"SELECT imie, dzial, zarobki, nazwa_dzial, zarobki FROM pracownicy, org
 worker(3,"SELECT imie, dzial, zarobki, nazwa_dzial, zarobki FROM pracownicy, organizacja WHERE dzial = id_org and imie like '%a'","Kobiety z nazwą działu");
 worker(4,"SELECT imie, dzial, zarobki, nazwa_dzial, zarobki FROM pracownicy, organizacja WHERE dzial = id_org and imie not like '%a'","Męzczyźni z nazwą działu");
 worker(5,"SELECT *FROM pracownicy, organizacja WHERE id_org=dzial order by imie desc","Pracownicy posortowani malejąco wg imienia");
+worker(6,"SELECT *FROM pracownicy, organizacja WHERE id_org=dzial and dzial=3 order by imie asc","Pracownicy z działu 3 posotowani rosnąco po imieniu");
+worker(7,"SELECT *FROM pracownicy, organizacja WHERE id_org=dzial and imie like '%a' order by imie asc","Kobiety posortowane rosnąco po imieniu");
+worker(8,"SELECT *FROM pracownicy, organizacja WHERE id_org=dzial and imie like '%a' and dzial=1 or dzial=3  order by zarobki asc","Kobiety z działu 1 i 3 posortowane rosnąco po zarobkach");
+
 ?>
 
  </body>
