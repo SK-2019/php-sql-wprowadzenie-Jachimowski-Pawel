@@ -27,7 +27,7 @@ function worker($nr_zadania,$z_sql,$polecenie,$kolumna1,$kolumna2){
 }
         echo("</table>");
 }
-worker(1,"SELECT SUM(zarobki) as suma_zarobki,nazwa_dzial FROM pracownicyn organizacja WHERE id_org=dzial GROUP BY nazwa_dzial HAVING SUM(zarobki)<28 ","Suma zarobków w poszczególnych działach mniejsza od 28 ","suma_zarobki","nazwa_dzial");
+worker(1,"SELECT sum(zarobki),nazwa_dzial from pracownicy,organizacja where id_org=dzial Group by dzial Having SUM(zarobki)<28","Suma zarobków w poszczególnych działach mniejsza od 28 ","suma_zarobki","nazwa_dzial");
 ?>
 
     </body>
