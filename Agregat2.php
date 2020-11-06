@@ -20,14 +20,14 @@ function worker($nr_zadania,$z_sql,$polecenie,$kolumna1,$kolumna2){
         echo("<table border=1>");
         echo("<th>$kolumna1</th>");
         echo("<th>$kolumna2</th>");
-         while($row=$result->fetch_assoc()){
-            echo("<tr>");
-                 echo("<td>".$row[$kolumna1]."</td><td>".$row[$kolumna2]."</td>");
-            echo("</tr>");
-    }
+            while($row=$result->fetch_assoc()){
+             echo("<tr>");
+                    echo("<td>".$row[$kolumna1]."</td><td>".$row[$kolumna2]."</td>");
+             echo("</tr>");
+}
         echo("</table>");
 }
-
+worker(1,"SELECT SUM(zarobki) as suma_zarobki,dzial FROM pracownicyn organizacja WHERE id_org=dzial GROUP BY dzial HAVING SUM(zarobki)<28 ","Suma zarobków w poszczególnych działach mniejsza od 28 ","suma_zarobki","dzial");
 ?>
 
     </body>
