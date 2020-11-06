@@ -16,17 +16,17 @@
         echo("<h2>Polecenie: $polecenie </h2>");
         echo("<h3>Tabelka $nr_zadania</h3>".$sql);
         $result=$conn->query($sql);
-        echo("<table border=1>");
-        echo("<th>imie</th>");
-        echo("<th>dzial</th>");
-        echo("<th>nazwa_dzial</th>");
-        echo("<th>zarobki</th>");
-        while($row=$result->fetch_assoc()){
-            echo("<tr>");
-                echo("<td>".$row["imie"]."</td><td>".$row['dzial']."</td><td>".$row['nazwa_dzial']."</td><td>".$row["zarobki"]."</td>");
-            echo("</tr>");
-        }
-    echo("</table>");
+            echo("<table border=1>");
+            echo("<th>imie</th>");
+            echo("<th>dzial</th>");
+            echo("<th>nazwa_dzial</th>");
+            echo("<th>zarobki</th>");
+                while($row=$result->fetch_assoc()){
+                 echo("<tr>");
+                     echo("<td>".$row["imie"]."</td><td>".$row['dzial']."</td><td>".$row['nazwa_dzial']."</td><td>".$row["zarobki"]."</td>");
+                echo("</tr>");
+    }
+            echo("</table>");
 }
 worker(1,"SELECT imie, dzial, zarobki, nazwa_dzial, zarobki FROM pracownicy, organizacja WHERE dzial = id_org","Pracownicy z nazwą działu");
 worker(2,"SELECT imie, dzial, zarobki, nazwa_dzial, zarobki FROM pracownicy, organizacja WHERE dzial = id_org and dzial=1 or dzial=4","Pracownicy z działu 1 i 4");
