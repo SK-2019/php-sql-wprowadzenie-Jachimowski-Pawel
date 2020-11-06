@@ -22,10 +22,10 @@ function worker($nr_zadania,$z_sql,$polecenie,$kolumna1,$kolumna2){
          while($row=$result->fetch_assoc()){
             echo("<tr>");
                  echo("<td>".$row[$kolumna1]."</td><td>".$row[$kolumna2]."</td>");
-            e   cho("</tr>");
-    };
+            echo("</tr>");
+    }
         echo("</table>");
-};
+}
 worker(1,"SELECT SUM(zarobki) as suma_zarobki FROM pracownicy","Suma zarobków wszystkich pracowników","suma_zarobki","-brak danych-");
 ?>
 
