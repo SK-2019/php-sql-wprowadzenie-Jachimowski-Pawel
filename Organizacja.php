@@ -29,7 +29,7 @@
         }
     echo("</table>");
 }
-worker(1,"SELECT*FROM pracownicy,organizacja WHERE dzial = nazwa_dzial","Pracownicy z nazwą działu");
+worker(1,"SELECT  id_pracownicy, imie, dzial, zarobki, id_pracownicy FROM pracownicy, organizacja WHERE dzial = nazwa_dzial","Pracownicy z nazwą działu");
 ?>
 
  </body>
