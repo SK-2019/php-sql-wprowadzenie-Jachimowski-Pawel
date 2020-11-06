@@ -19,7 +19,7 @@
         echo("<table border=1>");
         echo("<th>id_pracownicy</th>");
         echo("<th>imie</th>");
-        echo("<th>dział</th>");
+        echo("<th>dzial</th>");
         echo("<th>zarobki</th>");
             while($row=$result->fetch_assoc()){
                 echo("<tr>");
@@ -28,9 +28,6 @@
             }
         echo("</table>");
     }
-worker(1,"SELECT*FROM pracownicy","stwórz 5 tabel");
-worker(2,"SELECT*FROM pracownicy where imie like'%a'","stwórz 5 tabel");
-worker(3,"SELECT*FROM pracownicy where imie not like '%a'","stwórz 5 tabel");
 ?>
 
  </body>
