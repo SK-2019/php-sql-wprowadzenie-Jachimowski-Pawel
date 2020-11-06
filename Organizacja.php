@@ -6,7 +6,8 @@
 <div class="nav">
 <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
 <a href="index.php">Strona Główna</a>;
-<a href="Agregat.php">Funkcje Agregujące</a>;
+<a href="Agregat.php">Funkcje Agregujące 1-13</a>;
+<a href="Agregat.php">Funkcje Agregujące 13-X</a>;
 </div>
 <?php
     echo("<h1>Paweł Jachimowski</h1>");
