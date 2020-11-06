@@ -17,19 +17,18 @@
         echo("<h3>Tabelka $nr_zadania</h3>".$sql);
         $result=$conn->query($sql);
         echo("<table border=1>");
-        echo("<th>id_pracownicy</th>");
         echo("<th>imie</th>");
         echo("<th>dzial</th>");
         echo("<th>nazwa_dzial</th>");
         echo("<th>zarobki</th>");
         while($row=$result->fetch_assoc()){
             echo("<tr>");
-                echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row['dzial']."</td><td>".$row['nazwa_dzial']."</td><td>".$row["zarobki"]."</td>");
+                echo("<td>".$row["imie"]."</td><td>".$row['dzial']."</td><td>".$row['nazwa_dzial']."</td><td>".$row["zarobki"]."</td>");
             echo("</tr>");
         }
     echo("</table>");
 }
-worker(1,"SELECT id_pracownicy, imie, dzial, zarobki, nazwa_dzial, zarobki FROM pracownicy, organizacja WHERE dzial = id_org","Pracownicy z nazwą działu");
+worker(1,"SELECT imie, dzial, zarobki, nazwa_dzial, zarobki FROM pracownicy, organizacja WHERE dzial = id_org","Pracownicy z nazwą działu");
 ?>
 
  </body>
