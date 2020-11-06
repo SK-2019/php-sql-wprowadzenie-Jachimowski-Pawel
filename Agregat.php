@@ -37,8 +37,8 @@ worker(8,"SELECT COUNT(imie) as ilu_pracownicy FROM pracownicy where imie like '
 worker(9,"SELECT SUM(zarobki) as suma_zarobki,dzial FROM pracownicy GROUP BY dzial","Suma zarobków w poszczególnych działach ","suma_zarobki","dzial");
 worker(10,"SELECT COUNT(imie) as ilu_pracownicy,dzial FROM pracownicy GROUP BY dzial","Ilość pracowników w poszczególnych działach ","ilu_pracownicy","dzial");
 worker(11,"SELECT AVG(zarobki) as srednia_zarobki,dzial FROM pracownicy GROUP BY dzial","Średnie zarobków w poszczególnych działach","srednia_zarobki","dzial");
-worker(12,"SELECT SUM(zarobki) as suma_zarobki, if( (imie not like '%a'), 'menzczyzni','kobiety') as 'plec' FROM `pracownicy` GROUP by (imie like '%a')","Suma zarobków kobiet i mężczyzn* ","suma_zarobki","plec");
-worker(13,"SELECT AVG(zarobki) as srednia_zarobki, if( (imie not like '%a'), 'menzczyzni','kobiety') as 'plec' FROM `pracownicy` GROUP by (imie like '%a')","Średnia zarobków kobiet i mężczyzn* ","srednia_zarobki","plec");
+worker(12,"SELECT SUM(zarobki) as suma_zarobki, if( (imie not like '%a'), 'menzczyzni','kobiety') as 'plec' FROM pracownicy GROUP by (imie like '%a')","Suma zarobków kobiet i mężczyzn* ","suma_zarobki","plec");
+worker(13,"SELECT AVG(zarobki) as srednia_zarobki, if( (imie not like '%a'), 'menzczyzni','kobiety') as 'plec' FROM pracownicy GROUP by (imie like '%a')","Średnia zarobków kobiet i mężczyzn* ","srednia_zarobki","plec");
 worker(14,"SELECT SUM(zarobki) as suma_zarobki, nazwa_dzial FROM pracownicy, organizacja where id_org=dzial GROUP BY dzial HAVING SUM(zarobki)<28");
 ?>
 
