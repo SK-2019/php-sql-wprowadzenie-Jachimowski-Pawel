@@ -27,6 +27,7 @@ function worker($nr_zadania,$z_sql,$polecenie,$kolumna1,$kolumna2){
         echo("</table>");
 }
 worker(1,"SELECT SUM(zarobki) as suma_zarobki FROM pracownicy","Suma zarobków wszystkich pracowników","suma_zarobki","-brak danych-");
+worker(2,"SELECT SUM(zarobki) as suma_zarobki FROM pracownicy where imie like '%a'","Suma zarobków kobiet","suma_zarobki","-brak danych-");
 ?>
 
     </body>
