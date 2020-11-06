@@ -34,7 +34,9 @@ worker(5,"SELECT AVG(zarobki) as srednia_zarobki FROM pracownicy where dzial=4",
 worker(6,"SELECT AVG(zarobki) as srednia_zarobki FROM pracownicy where imie not like '%a' and dzial=2 or dzial=3","Średnia zarobków mężczyzn z działu 2 i 3","srednia_zarobki","-brak danych-");
 worker(7,"SELECT COUNT(imie) as ilu_pracownicy FROM pracownicy","ilość wszystkich pracowników","ilu_pracownicy","-brak danych-");
 worker(8,"SELECT COUNT(imie) as ilu_pracownicy FROM pracownicy where imie like '%a' and dzial=1 or dzial=3","ilość wszystkich pracowników","ilu_pracownicy","-brak danych-");
-worker(9,"SELECT SUM(zarobki) as suma_zarobki,dzial FROM pracownicy GROUP BY dzial","ilość wszystkich pracowników","suma_zarobki","dzial");
+worker(9,"SELECT SUM(zarobki) as suma_zarobki,dzial FROM pracownicy GROUP BY dzial","Suma zarobków w poszczególnych działach ","suma_zarobki","dzial");
+worker(10,"SELECT COUNT(imie) as ilu_pracownicy,dzial FROM pracownicy GROUP BY dzial","Ilość pracowników w poszczególnych działach ","ilu_pracownicy","dzial");
+worker(11,"SELECT AVG(zarobki) as srednia_zarobki,dzial FROM pracownicy GROUP BY dzial","Średnie zarobków w poszczególnych działach","srednia_zarobki","dzial");
 ?>
 
     </body>
