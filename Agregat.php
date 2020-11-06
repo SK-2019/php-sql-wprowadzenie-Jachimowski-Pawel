@@ -17,8 +17,8 @@ function worker($nr_zadania,$z_sql,$polecenie,$kolumna1,$kolumna2){
     echo("<h3>Tabelka $nr_zadania</h3>".$sql);
     $result=$conn->query($sql);
         echo("<table border=1>");
-        echo("<th>" $kolumna1 "</th>");
-        echo("<th>"$kolumna2"</th>");
+        echo("<th>$kolumna1</th>");
+        echo("<th>$kolumna2</th>");
          while($row=$result->fetch_assoc()){
             echo("<tr>");
                  echo("<td>".$row[$kolumna1]."</td><td>".$row[$kolumna2]."</td>");
