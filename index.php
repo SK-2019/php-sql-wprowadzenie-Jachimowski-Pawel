@@ -29,7 +29,7 @@
         echo("</table>");
     }
 worker(1,"SELECT*FROM pracownicy where dzial=2","Pracownicy z dzialu 2");
-worker(2,"SELECT*FROM pracownicy where dzial=2 or dzial=3'%a'","Pracownicy z dzialu 2 lub 3");
+worker(2,"SELECT*FROM pracownicy where dzial=2 or dzial=3","Pracownicy z dzialu 2 lub 3");
 worker(3,"SELECT*FROM pracownicy where zarobki<30","Pracownicy z zarobkami mniejszymi niż 30");
 ?>
 
