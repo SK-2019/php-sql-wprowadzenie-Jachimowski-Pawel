@@ -30,6 +30,8 @@ worker(1,"SELECT SUM(zarobki) as suma_zarobki FROM pracownicy","Suma zarobków w
 worker(2,"SELECT SUM(zarobki) as suma_zarobki FROM pracownicy where imie like '%a'","Suma zarobków kobiet","suma_zarobki","-brak danych-");
 worker(3,"SELECT SUM(zarobki) as suma_zarobki FROM pracownicy where imie not like '%a' and dzial=2 or dzial=3","Suma zarobków mężczyzn z działu 2 i 3","suma_zarobki","-brak danych-");
 worker(4,"SELECT AVG(zarobki) as srednia_zarobki FROM pracownicy where imie not like '%a'","Średnia zarobków wszystkich mężczyzn","srednia_zarobki","-brak danych-");
+worker(5,"SELECT AVG(zarobki) as srednia_zarobki FROM pracownicy where dzial=4","Średnia zarobków z działu 4","srednia_zarobki","-brak danych-");
+worker(6,"SELECT AVG(zarobki) as srednia_zarobki FROM pracownicy where imie not like '%a' and dzial=2 or dzial=3","Średnia zarobków mężczyzn z działu 2 i 3","srednia_zarobki","-brak danych-");
 ?>
 
     </body>
