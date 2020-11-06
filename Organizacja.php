@@ -9,7 +9,7 @@
 <a href="Agregat.php">Funkcje Agregujące</a>;
 </div>
 <?php
-    echo("<h1>Paweł Jachimowski");
+    echo("<h1>Paweł Jachimowski</h1>");
     function worker($nr_zadania,$z_sql,$polecenie){
         require("connect.php");
         $sql=$z_sql;
@@ -20,14 +20,16 @@
         echo("<th>id_pracownicy</th>");
         echo("<th>imie</th>");
         echo("<th>dzial</th>");
+        echo("<th>nazwa_dzial</th>");
         echo("<th>zarobki</th>");
-            while($row=$result->fetch_assoc()){
-                echo("<tr>");
-                    echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row['dzial']."</td><td>".$row["zarobki"]."</td>");
-                echo("</tr>");
-            }
-        echo("</table>");
-    }
+        while($row=$result->fetch_assoc()){
+            echo("<tr>");
+                echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row['dzial']."</td><td>".$row['nazwa_dzial']."</td><td>".$row["zarobki"]."</td>");
+            echo("</tr>");
+        }
+    echo("</table>");
+}
+worker(1,"SELECT*FROM pracownicy,organizacja WHERE dzial = nazwa_dzial","Pracownicy z nazwą działu");
 ?>
 
  </body>
