@@ -8,6 +8,8 @@
 <a href="index.php">Strona Główna</a>;
 <a href="Agregat.php">Funkcje Agregujące 1-13</a>;
 <a href="Agregat2.php">Funkcje Agregujące 13-X</a>;
+<a href="formularz.php">Formularz</a>;
+<a href="strona.php">Strona</a>;
 </div>
 <?php
     echo("<h1>Paweł Jachimowski</h1>");
