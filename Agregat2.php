@@ -8,7 +8,7 @@
 <a href="index.php">Strona Główna</a>;
 <a href="Organizacja.php">Pracownicy i Organizacja</a>;
 <a href="Agregat.php">Funkcje Agregujące 1-13</a>;
-<a href="formularz.php">Formularz</a>;
+
 <a href="strona.php">Strona</a>;
 </div>
 <?php
