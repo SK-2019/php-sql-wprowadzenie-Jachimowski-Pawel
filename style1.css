@@ -1,6 +1,6 @@
 body {
     color: black;
-    background-color: rgb(27, 172, 97);
+    background-color: rgb(132, 235, 230);
     }
     
     table{
@@ -18,6 +18,6 @@ body {
     }
     
     tr:nth-child(even) {background-color: #cabe13;}
-    tr:nth-child(odd) {background-color: #12bd8f;}
+    tr:nth-child(odd) {background-color: #139d1a;}
     tr:hover {background-color: #ffffff;}
     
