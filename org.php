@@ -6,7 +6,7 @@
             <div class="nav">
             <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
             <a href="index.php">Index</a>;
-            <a href="F-agregat.php">Funkcje Agregujace</a>;
+            <a href="FAgregat.php">Funkcje Agregujace</a>;
             </div>
                 <?php
                     function worker($nr_zadania,$z_sql,$polecenie){
