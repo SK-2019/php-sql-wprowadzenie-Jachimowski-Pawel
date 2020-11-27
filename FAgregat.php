@@ -9,22 +9,23 @@
             <a href="org.php">Organizacja</a>;
             </div>
                 <?php
-                function worker(){
+
                     require("connect.php");
-                    $sql="SELECT SUM(zarobki) as suma_zarobki FROM pracownicy"
+                    $sql="SELECT sum(zarobki) as suma_zarobki FROM pracownicy";
                     echo("<h2>Tabelka 1</h2>");
-                    echo("<h2>Polecenie: Suma zarobków wszystkich pracowników</h2>");
-                    $result=$conn->query($sql);
-                    echo("<table border=1>");
-                    echo("<th>suma_zarobki</th>");  
-                        while($row=$result->fetch_assoc()){
-                            echo("<tr>");
-                                echo("<td>".$row["suma_zarobki"]."</td>");
-                            echo("</tr>");
-                        };
-                    echo("</table>");
-                };
-                worker();  
+                    echo("<h2>Polecenie Suma zarobków wszystkich pracowników</h2>".$sql);
+                    $result=$conn->query($sql); 
+                        echo("<table border=1>");
+                        echo("<th>suma_zarobki</th>");
+                            while($row=$result->fetch_assoc()){ 
+                                echo("<tr>");
+                                    echo("<td>".$row["suma_zarobki"]."</td>");
+                                echo("</tr>");
+                            };
+
+                        echo("</table>");
+
+
                 ?>
         </body>
 </html>  

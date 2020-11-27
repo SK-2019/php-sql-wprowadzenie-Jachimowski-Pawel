@@ -12,8 +12,8 @@
                     function worker($nr_zadania,$z_sql,$polecenie){
                         require("connect.php");
                         $sql=$z_sql;
-                        echo("<h2>Tabelka $nr_zadania</h2>".$sql);
-                        echo("<h2>Polecenie: $polecenie </h2>");
+                        echo("<h2>Tabelka $nr_zadania</h2>");
+                        echo("<h2>Polecenie: $polecenie </h2>".$sql);
                         $result=$conn->query($sql);
                             echo("<table border=1>");
                             echo("<th>imie</th>");
