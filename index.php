@@ -4,6 +4,8 @@
     </head>
         <body>
             <div class="nav">
+            <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
+            <a href="org.php">Organizacja</a>;
                 <?php  
                   echo("<h1>Paweł Jachimowski</h1>");
                   function worker($nr_zadania,$z_sql,$polecenie){
