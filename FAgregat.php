@@ -26,7 +26,7 @@
                     //                           (Funkcja z powyższej tabelki)
                     //                                      \/
                     //
-                    function worker($nr_zadania,$z_sql,$polecenie,$kolumna1,){
+                    function worker($nr_zadania,$z_sql,$polecenie,$kolumna1){
                         require("connect.php");
                         $sql=$z_sql;
                         echo("<h2>Polecenie: $polecenie </h2>");
