@@ -7,6 +7,7 @@
             <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
             <a href="org.php">Organizacja</a>;
             <a href="FAgregat.php">Funkcje Agregujace</a>;
+            <a href="dataiczas">Data i czas</a>;
                 <?php  
                 echo("<h1>Paweł Jachimowski</h1>");
                 function worker($nr_zadania,$z_sql,$polecenie){

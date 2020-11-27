@@ -7,6 +7,7 @@
             <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
             <a href="index.php">Index</a>;
             <a href="org.php">Organizacja</a>;
+            <a href="dataiczas">Data i czas</a>;
             </div>
                 <?php
 

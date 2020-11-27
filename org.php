@@ -7,6 +7,7 @@
             <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
             <a href="index.php">Index</a>;
             <a href="FAgregat.php">Funkcje Agregujace</a>;
+            <a href="dataiczas">Data i czas</a>;
             </div>
                 <?php
                     function worker($nr_zadania,$z_sql,$polecenie){
