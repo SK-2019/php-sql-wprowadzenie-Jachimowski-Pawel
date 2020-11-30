@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width">
 </head>
         <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style1.css">
         </head>	
 	
 	<div class="nav"
