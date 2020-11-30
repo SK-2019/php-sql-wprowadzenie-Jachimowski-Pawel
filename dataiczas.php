@@ -9,6 +9,7 @@
             <a href="org.php">Organizacja</a>;
             <a href="FAgregat.php">Funkcje Agregujace</a>;
             <a href="formularz.html">Formularz</a>;
+            <a href="danedobazy.php">Dane do bazy</a>;
             </div>
                 <?php
                     function worker($nr_zadania,$z_sql){

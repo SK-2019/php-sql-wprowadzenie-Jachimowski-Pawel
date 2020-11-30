@@ -1,6 +1,6 @@
 <html>
         <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style1.css">
         </head>
 <div class="nav"
         <h3>
@@ -9,7 +9,8 @@
             <a href="org.php">Organizacja</a>;
             <a href="FAgregat.php">Funkcje Agregujace</a>;
             <a href="dataiczas.php">Data i czas</a>;
-            <a href="formularz.html">Formularz</a>;
+            <a href="formularz.html">Formularz</a>
+            <a href="danedobazy.php">Dane do bazy</a>;
         </h3>
 </div>
   
