@@ -8,6 +8,7 @@
             <a href="org.php">Organizacja</a>;
             <a href="FAgregat.php">Funkcje Agregujace</a>;
             <a href="dataiczas.php">Data i czas</a>;
+            <a href="formularz.html">Formularz</a>;
                 <?php  
                 echo("<h1>Paweł Jachimowski</h1>");
                 function worker($nr_zadania,$z_sql,$polecenie){

@@ -8,6 +8,7 @@
             <a href="index.php">Index</a>;
             <a href="org.php">Organizacja</a>;
             <a href="dataiczas.php">Data i czas</a>;
+            <a href="formularz.html">Formularz</a>;
             </div>
                 <?php
 

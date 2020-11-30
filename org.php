@@ -8,6 +8,7 @@
             <a href="index.php">Index</a>;
             <a href="FAgregat.php">Funkcje Agregujace</a>;
             <a href="dataiczas.php">Data i czas</a>;
+            <a href="formularz.html">Formularz</a>;
             </div>
                 <?php
                     function worker($nr_zadania,$z_sql,$polecenie){
