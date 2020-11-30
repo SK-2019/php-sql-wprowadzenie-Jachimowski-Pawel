@@ -5,17 +5,18 @@
   <meta name="viewport" content="width=device-width">
 </head>
         <head>
-        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="style.css">
         </head>	
 	
 	<div class="nav"
 <h3>
-a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
+<a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
             <a href="index.php">Index</a>;
             <a href="org.php">Organizacja</a>;
             <a href="FAgregat.php">Funkcje Agregujace</a>;
             <a href="dataiczas.php">Data i czas</a>;
-            <a href="formularz.html">Formularz</a>;
+            <a href="formularz.html">Formularz</a>
+
 </h3>
 </div>
 
