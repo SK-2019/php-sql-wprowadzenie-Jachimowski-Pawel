@@ -10,6 +10,7 @@
             <a href="dataiczas.php">Data i czas</a>;
             <a href="formularz.html">Formularz</a>;
             <a href="danedobazy.php">Dane do bazy</a>;
+            <a href="ksiazki.php">Książki</a>;
                 <?php  
                 echo("<h1>Paweł Jachimowski</h1>");
                 function worker($nr_zadania,$z_sql,$polecenie){
