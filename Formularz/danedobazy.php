@@ -12,11 +12,11 @@
 <h3>
 <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
             <a href="index.php">Index</a>;
-            <a href="org.php">Organizacja</a>;
-            <a href="FAgregat.php">Funkcje Agregujace</a>;
-            <a href="dataiczas.php">Data i czas</a>;
-            <a href="formularz.html">Formularz</a>;
-            <a href="ksiazki.php">Książki</a>;
+            <a href="Tabele/org.php">Organizacja</a>;
+            <a href="Tabele/FAgregat.php">Funkcje Agregujace</a>;
+            <a href="Tabele/dataiczas.php">Data i czas</a>;
+            <a href="Formularz/formularz.html">Formularz</a>;
+            <a href="Biblioteka/ksiazki.php">Książki</a>;
             
 
 </h3>
@@ -27,7 +27,7 @@
 
 <body>
 <h2>DODAWANIE PRACOWNIKA</h2>
-<form action="insert.php" method="POST">
+<form action="Formularz/insert.php" method="POST">
 	<input type="text" name="name" placeholder="Imie"></br>
 	<input type="number" name="dzial" placeholder="Dział"></br>
 	<input type="number" name="zarobki" placeholder="Zarobki"></br>
@@ -36,7 +36,7 @@
 </form>
 
 <h2>USUWANIE PRACOWNIKA</h2>
-<form action="delete.php" method="POST">
+<form action="Formularz/delete.php" method="POST">
    <input type="number" name="id"></br>
    <input type="submit" value="Usuń pracownika">
 </form>

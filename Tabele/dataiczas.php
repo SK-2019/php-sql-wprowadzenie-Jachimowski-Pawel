@@ -6,11 +6,11 @@
             <div class="nav">
             <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
             <a href="index.php">Index</a>;
-            <a href="org.php">Organizacja</a>;
-            <a href="FAgregat.php">Funkcje Agregujace</a>;
-            <a href="formularz.html">Formularz</a>;
-            <a href="danedobazy.php">Dane do bazy</a>;
-            <a href="ksiazki.php">Książki</a>;
+            <a href="Tabele/org.php">Organizacja</a>;
+            <a href="Tabele/FAgregat.php">Funkcje Agregujace</a>;
+            <a href="Formularz/formularz.html">Formularz</a>;
+            <a href="Formularz/danedobazy.php">Dane do bazy</a>;
+            <a href="Biblioteka/ksiazki.php">Książki</a>;
             </div>
                 <?php
                     function worker($nr_zadania,$z_sql){
