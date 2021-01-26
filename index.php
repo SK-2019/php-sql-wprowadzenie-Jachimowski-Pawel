@@ -20,7 +20,6 @@
                 </div>
                 <div class="right">    
                     <?php  
-                    echo("<h1>Paweł Jachimowski</h1>");
                     function worker($nr_zadania,$z_sql,$polecenie){
                         require("/assets/connect.php");
                         $sql=$z_sql;
