@@ -2,7 +2,7 @@
         <head>
         <link rel="stylesheet" href="/assets/style1.css">
         </head>
-<div class="nav"
+<div class="nav">
         <h3>
         <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
             <a href="/index.php">Index</a>;

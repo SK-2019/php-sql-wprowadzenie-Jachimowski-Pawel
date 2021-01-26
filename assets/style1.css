@@ -6,14 +6,17 @@
 .top {
   width: 100%;
   background-color: #91F8C0;
+  height: 5%;
 }
 .left {
   width: 20%;
   background-color:#ADFBA5;
+  height: 90%;
 }
 .right {
   width: 70%;
   background-color: #F9F871;
+  height: 90%;
 }
 /* body {
     color: black;
