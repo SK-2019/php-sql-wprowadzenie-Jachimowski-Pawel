@@ -17,8 +17,7 @@
                         <a href="/pracownicy/danedobazy.php">Dane do bazy</a>;
                         <a href="/biblioteka/ksiazki.php">Książki</a>;
                     </h9>
-                </div>
-                <div class="right">    
+                </div> 
                     <?php  
                     function worker($nr_zadania,$z_sql,$polecenie){
                         require("/assets/connect.php");
@@ -42,7 +41,6 @@
                     worker("Zad 2","SELECT*FROM pracownicy where dzial=2 or dzial=3","Pracownicy z dzialu 2 lub 3");
                     worker("Zad 3","SELECT*FROM pracownicy where zarobki<30","Pracownicy z zarobkami mniejszymi niż 30");
                     ?>
-                </div>
             </div>
         </body>
 </html>
