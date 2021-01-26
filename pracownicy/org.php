@@ -1,20 +1,20 @@
 <html>
     <head> 
-        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="/assets/style1.css">
     </head>
         <body>
             <div class="nav">
             <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
-            <a href="index.php">Index</a>;
-            <a href="FAgregat.php">Funkcje Agregujace</a>;
-            <a href="dataiczas.php">Data i czas</a>;
-            <a href="formularz.html">Formularz</a>;
-            <a href="danedobazy.php">Dane do bazy</a>;
-            <a href="ksiazki.php">Książki</a>;
+            <a href="/index.php">Index</a>;
+            <a href="/pracownicy/FAgregat.php">Funkcje Agregujace</a>;
+            <a href="/pracownicy/dataiczas.php">Data i czas</a>;
+            <a href="/cwiczenia/formularz.html">Formularz</a>;
+            <a href="/pracownicy/danedobazy.php">Dane do bazy</a>;
+            <a href="/biblioteka/ksiazki.php">Książki</a>;
             </div>
                 <?php
                     function worker($nr_zadania,$z_sql,$polecenie){
-                        require("connect.php");
+                        require("/assets/connect.php");
                         $sql=$z_sql;
                         echo("<h2>Tabelka $nr_zadania</h2>");
                         echo("<h2>Polecenie: $polecenie </h2>".$sql);

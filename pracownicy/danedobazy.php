@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width">
 </head>
         <head>
-        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="/assets/style1.css">
         </head>	
 	
 	<div class="nav"
 <h3>
 <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
-            <a href="index.php">Index</a>;
-            <a href="org.php">Organizacja</a>;
-            <a href="FAgregat.php">Funkcje Agregujace</a>;
-            <a href="dataiczas.php">Data i czas</a>;
-            <a href="formularz.html">Formularz</a>;
-            <a href="ksiazki.php">Książki</a>;
+            <a href="/index.php">Index</a>;
+            <a href="/pracownicy/org.php">Organizacja</a>;
+            <a href="/pracownicy/FAgregat.php">Funkcje Agregujace</a>;
+            <a href="/pracownicy/dataiczas.php">Data i czas</a>;
+            <a href="/cwiczenia/formularz.html">Formularz</a>;
+            <a href="/biblioteka/ksiazki.php">Książki</a>;
             
 
 </h3>
@@ -45,7 +45,7 @@
 
 <?php
 
-require_once("connect.php");
+require_once("/assets/connect.php");
 
 $sql = ("SELECT id_pracownicy, imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja where dzial=id_org");
 $result=$conn->query($sql);

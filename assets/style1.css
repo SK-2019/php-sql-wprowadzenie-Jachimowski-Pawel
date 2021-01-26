@@ -1,4 +1,21 @@
-body {
+.all {
+  background-color: #84EBE6;
+  display: flex;
+  flex-wrap: wrap;
+}
+.top {
+  width: 100%;
+  background-color: #91F8C0;
+}
+.left {
+  width: 20%;
+  background-color:#ADFBA5;
+}
+.right {
+  width: 70%;
+  background-color: #F9F871;
+}
+/* body {
     color: black;
     background-color: rgb(132, 235, 230);
     }
@@ -19,5 +36,4 @@ body {
     
     tr:nth-child(even) {background-color: #cabe13;}
     tr:nth-child(odd) {background-color: #139d1a;}
-    tr:hover {background-color: #ffffff;}
-    
+    tr:hover {background-color: #ffffff;} */
