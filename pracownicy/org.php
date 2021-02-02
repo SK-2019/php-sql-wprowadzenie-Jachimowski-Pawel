@@ -3,18 +3,24 @@
         <link rel="stylesheet" href="/assets/style1.css">
     </head>
         <body>
-            <div class="nav">
-            <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
-            <a href="/index.php">Index</a>;
-            <a href="/pracownicy/FAgregat.php">Funkcje Agregujace</a>;
-            <a href="/pracownicy/dataiczas.php">Data i czas</a>;
-            <a href="/cwiczenia/formularz.html">Formularz</a>;
-            <a href="/pracownicy/danedobazy.php">Dane do bazy</a>;
-            <a href="/biblioteka/ksiazki.php">Książki</a>;
-            </div>
+            <div class="all">
+                <div class="top">
+                    <h8>Paweł Jachimowski</h8>
+                </div>    
+                <div class="left">
+                    <h9>
+                    <div class="middle"><a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a></div>
+                    <div class=up><a href="/index.php">Index</a></div>
+                    <div class="sub"><a href="/pracownicy/FAgregat.php">Funkcje Agregujace</a></div>
+                    <div class="super"><a href="/pracownicy/dataiczas.php">Data i czas</a></div>
+                    <div class="text-bottom"><a href="/pracownicy/danedobazy.php">Dane do bazy</a></div>
+                    <div class="baseline"><a href="/biblioteka/ksiazki.php">Książki</a></div>
+                    </h9>
+                </div>
+                <div class="right">
                 <?php
                     function worker($nr_zadania,$z_sql,$polecenie){
-                        require("/assets/connect.php");
+                        require("connect.php");
                         $sql=$z_sql;
                         echo("<h2>Tabelka $nr_zadania</h2>");
                         echo("<h2>Polecenie: $polecenie </h2>".$sql);
@@ -38,5 +44,6 @@
                     worker("Zad 5","SELECT *FROM pracownicy, organizacja WHERE id_org=dzial order by imie desc","Pracownicy posortowani malejąco wg imienia");
                     worker("Zad 6","SELECT *FROM pracownicy, organizacja WHERE id_org=dzial and dzial=3 order by imie asc","Pracownicy z działu 3 posortowani rosnąco po imieniu");
                 ?>
+                </div>
         </body>
 </html>

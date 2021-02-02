@@ -13,7 +13,6 @@
             <a href="/pracownicy/org.php">Organizacja</a>;
             <a href="/pracownicy/FAgregat.php">Funkcje Agregujace</a>;
             <a href="/pracownicy/dataiczas.php">Data i czas</a>;
-            <a href="/cwiczenia/formularz.html">Formularz</a>;
             <a href="/pracownicy/danedobazy.php">Dane do bazy</a>;
             <a href="/biblioteka/ksiazki.php">Książki</a>;
             

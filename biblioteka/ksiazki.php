@@ -13,7 +13,6 @@
             <a href="/pracownicy/org.php">Organizacja</a>;
             <a href="/pracownicy/FAgregat.php">Funkcje Agregujace</a>;
             <a href="/pracownicy/dataiczas.php">Data i czas</a>;
-            <a href="/cwiczenia/formularz.html">Formularz</a>;
             <a href="/pracownicy/danedobazy.php">Dane do bazy</a>;
 
             </h3>
@@ -22,7 +21,7 @@
 
                 <?php
                 
-                require_once('/assets/connect.php');
+                require_once('connect.php');
                 $sql = 'SELECT * FROM biblAutor, biblTytul, biblAutor_biblTytul WHERE biblAutor_id=biblAutor.id and biblTytul_id=biblTytul.id';
                 echo("<h2>".$sql."</h2>");
 
