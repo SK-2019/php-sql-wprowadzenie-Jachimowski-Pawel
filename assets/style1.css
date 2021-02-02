@@ -19,6 +19,10 @@
   height: auto;
   overflow: hidden;  
 }
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
  body {
     color: black;
     background-color: rgb(132, 235, 230);
