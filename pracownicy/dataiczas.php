@@ -14,7 +14,7 @@
             </div>
                 <?php
                     function worker($nr_zadania,$z_sql){
-                        require("/assets/connect.php");
+                        require("connect.php");
                         $sql=$z_sql;
                         echo("<h2>Tabelka $nr_zadania</h2>".$sql);
                         $result = $conn->query($sql);
