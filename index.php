@@ -21,6 +21,21 @@
                 <div class="right">
                     <?php  
                     echo("coś");
+                    require("/assets/connect.php");
+                        $sql="SELECT*FROM pracownicy where dzial=2";
+                        echo("<h2>Polecenie: Wszyscy pracownicy </h2>".$sql);
+                        $result=$conn->query($sql);
+                            echo("<table border=1>");
+                            echo("<th>id_pracownicy</th>");
+                            echo("<th>imie</th>");
+                            echo("<th>dzial</th>");
+                            echo("<th>zarobki</th>");
+                                while($row=$result->fetch_assoc()){
+                                    echo("<tr>");
+                                        echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row['dzial']."</td><td>".$row["zarobki"]."</td>");
+                                    echo("</tr>");
+                                };
+                             echo("</table>");
                     // function worker($nr_zadania,$z_sql,$polecenie){
                     //     require("/assets/connect.php");
                     //     $sql=$z_sql;
