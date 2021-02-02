@@ -1,5 +1,5 @@
 <?php
-echo("connect.php")
+echo("connect.php");
 // $servername="mysql-pawelj.alwaysdata.net";
 // $username="pawelj";
 // $password="Jachimowski0719";
