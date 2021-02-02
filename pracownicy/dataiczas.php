@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="/assets/style1.css">
+        <link rel="stylesheet" href="/assets/style2.css">
     </head>
         <body>
             <div class="nav">
