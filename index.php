@@ -20,9 +20,8 @@
                 </div>
                 <div class="right">
                     <?php  
-                    echo("coś");
                     require("connect.php");
-                        $sql="SELECT*FROM pracownicy where dzial=2";
+                        $sql="SELECT*FROM pracownicy";
                         echo("<h2>Polecenie: Wszyscy pracownicy </h2>".$sql);
                         $result=$conn->query($sql);
                             echo("<table border=1>");
