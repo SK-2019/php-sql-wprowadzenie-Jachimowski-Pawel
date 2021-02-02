@@ -1,6 +1,5 @@
 .all {
-  background-color: #84EBE6;
-  display: flex;
+    display: flex;
   flex-wrap: wrap;
 }
 .top {
