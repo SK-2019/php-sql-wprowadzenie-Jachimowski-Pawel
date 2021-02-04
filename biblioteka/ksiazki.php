@@ -9,12 +9,11 @@
             <div class="nav"
             <h3>
             <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
-                        <a href="index.php">Index</a>;
-                        <a href="org.php">Organizacja</a>;
-                        <a href="FAgregat.php">Funkcje Agregujace</a>;
-                        <a href="dataiczas.php">Data i czas</a>;
-                        <a href="formularz.html">Formularz</a>;
-                        <a href="danedobazy.php">Dane do bazy</a>;
+            <a href="index.php">Index</a>;
+            <a href="/pracownicy/org.php">Organizacja</a>;
+            <a href="/pracownicy/FAgregat.php">Funkcje Agregujace</a>;
+            <a href="/pracownicy/dataiczas.php">Data i czas</a>;
+            <a href="/pracownicy/danedobazy.php">Dane do bazy</a>;
 
             </h3>
             </div>

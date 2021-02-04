@@ -3,19 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/assets/style1.css">
     </head>
 <body>
 <div class="nav"
 <h3>
 <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
-            <a href="index.php">Index</a>;
-            <a href="org.php">Organizacja</a>;
-            <a href="FAgregat.php">Funkcje Agregujace</a>;
-            <a href="dataiczas.php">Data i czas</a>;
-            <a href="formularz.html">Formularz</a>;
-            <a href="danedobazy.php">Dane do bazy</a>;
-            <a href="ksiazki.php">Książki</a>;
+            <a href="/index.php">Index</a>;
+            <a href="/pracownicy/org.php">Organizacja</a>;
+            <a href="/pracownicy/FAgregat.php">Funkcje Agregujace</a>;
+            <a href="/pracownicy/dataiczas.php">Data i czas</a>;
+            <a href="/pracownicy/danedobazy.php">Dane do bazy</a>;
+            <a href="/biblioteka/ksiazki.php">Książki</a>;
             
 
 </h3>
