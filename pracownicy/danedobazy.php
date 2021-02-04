@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<link rel="icon" 
+      type="image/png" 
+      href="/png.ico" />
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">

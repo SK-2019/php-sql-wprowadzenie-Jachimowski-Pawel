@@ -1,4 +1,7 @@
 <html>
+    <link rel="icon" 
+      type="image/png" 
+      href="/png.ico" />   
     <head> 
         <link rel="stylesheet" href="/assets/style1.css">
     </head>
