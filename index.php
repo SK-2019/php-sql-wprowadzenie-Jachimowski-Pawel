@@ -22,7 +22,11 @@
                 </div>
                 <div class="right">
                     
-                    <?php  
+                    <?php 
+                    // require_once ("config.php");
+                    echo("<li> Server password:".$_SERVER['pass']); 
+                    echo("<li> Server password:".$_SERVER['PASSWORD']); 
+                    echo("<li> Server password:".$_SERVER['SECRET_KEY']); 
                     require("assets/connect.php");
                         $sql="SELECT*FROM pracownicy";
                         echo("<h2>Polecenie: Wszyscy pracownicy </h2>".$sql);
