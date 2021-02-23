@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="icon" 
+      type="image/png" 
+      href="/png.ico" />
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style1.css">
     </head>
         <body>
-            <div class="nav"
+            <div class="nav">
             <h3>
             <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a>;
             <a href="index.php">Index</a>;

@@ -1,4 +1,7 @@
 <html>
+    <link rel="icon" 
+      type="image/png" 
+      href="/png.ico" />   
     <head> 
         <link rel="stylesheet" href="/assets/style1.css">
     </head>
@@ -19,8 +22,8 @@
                 </div>
                 <div class="right">
                     
-                    <?php  
-                    require("assets/connect.php");
+                    <?php 
+                    require("connect.php");
                         $sql="SELECT*FROM pracownicy";
                         echo("<h2>Polecenie: Wszyscy pracownicy </h2>".$sql);
                         $result=$conn->query($sql);
