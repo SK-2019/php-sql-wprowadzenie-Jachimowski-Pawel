@@ -326,12 +326,12 @@ head {
   .menu_link:hover {
     color: red;
     background-color: black;
-    padding-bottom: 70px;
-    padding-right: 3px;
-    padding-top: 3px;
-    padding-left: 150px;
-    border-bottom-right-radius: 7px;
-    border-bottom-left-radius: 74px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   .menu_link2 {
     background-color: blue;
