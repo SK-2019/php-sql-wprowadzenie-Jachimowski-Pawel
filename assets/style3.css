@@ -31,7 +31,7 @@ head {
   }
   
   h1 {
-    color: #f54141;
+    color: black;
   }
   /* h2 {
     color: #8008e1;
@@ -122,21 +122,21 @@ head {
   .container1 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
    }
   .header1 {
-     background-color: #3c69ff;
+     background-color: orange;
      margin: 1px;
-     width: 50%;
+     width: 80%;
      height: 40%;
    }
    
    .container2 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -151,8 +151,8 @@ head {
    .container3 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -167,23 +167,23 @@ head {
    .container4 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      justify-content: flex-end;
    }
    .header4 {
-     background-color: #3c69ff;
+     background-color:  orange;
      margin: 1px;
-     width: 50%;
+     width: 80%;
      height: 40%;
    }
    
    .container5 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -199,8 +199,8 @@ head {
    .container6 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -216,24 +216,47 @@ head {
    .container7 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      flex-wrap: wrap;
      justify-content: flex-start;
      align-items: flex-end;
    }
+   /* .header7 {
+     background-color:  orange;
+     width: 30%;
+     height: 80%;
+   } */
    .header7 {
-     background-color: #3c69ff;
-     width: 50%;
-     height: 40%;
-   }
+    background-color: orange;
+    padding: 5px;
+    width: 30%;
+  }
+  
+  .menu_link4 {
+    display: block;
+    margin-bottom: 2px;
+    background-color: olive;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 1px;
+    transition: 0.4s;
+  }
+  
+  .menu_link4:hover {
+    color: lightgoldenrodyellow;
+    background-color: black;
+    padding-right: 5px;
+    padding-left: 145px;
+  }
    
    .container8 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -248,8 +271,8 @@ head {
    .container9 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -265,24 +288,23 @@ head {
    .container10 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      justify-content: flex-end;
      align-items: flex-end;
    }
    .header10 {
-     background-color: #3c69ff;
-     margin: 1px;
-     width: 50%;
-     height: 40%;
+     background-color:  orange;
+     padding: 5px;
+     width: 30%;
    }
    
    .container11 {
      background-color: #ff002b;
      padding: 5px;
-     width: 15%;
-     height: 150px;
+     width: 40%;
+     height: 400px;
      display: flex;
      justify-content: flex-start;
      align-items: flex-start;
@@ -293,3 +315,74 @@ head {
      width: 25%;
      height: 25%;
    }
+   .menu_link {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 1px;
+    transition: 0.2s;
+  }
+  .menu_link:hover {
+    color: red;
+    background-color: black;
+    padding-bottom: 70px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-left: 150px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 74px;
+  }
+  .menu_link2 {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 1px;
+    transition: 0.2s;
+  }
+  .menu_link2:hover {
+    color: white;
+    background-color: red;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-left: 20px;
+  }
+  .menu_link3 {
+    display: block;
+    margin-bottom: 2px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 1px;
+    transition: 0.6s;
+  }
+  
+  .menu_link3:hover {
+    color: red;
+    background-color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  .menu_link4 {
+    display: block;
+    margin-bottom: 2px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 1px;
+    transition: 0.1s;
+  }
+  .menu_link4:hover {
+    color: white;
+    background-color: black;
+    color: red;
+    padding-right: 10px;
+    padding-left: 178px;
+    border-radius: 12px;
+    padding-bottom: 15;
+  }
