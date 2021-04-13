@@ -108,8 +108,8 @@ head {
   }
   
   .all{
-    width: 80%;
-    max-height: 89vh;
+    width: 100%;
+    max-height: 50%;
     background-color:#cabe13;
     display: flex;
     flex-flow: column wrap;
