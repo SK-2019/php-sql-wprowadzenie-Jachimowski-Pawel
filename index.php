@@ -11,19 +11,7 @@
                 <?php include("header.php") ?>
                 </div>    
                 <div class="left">
-<<<<<<< Updated upstream
-                    <h9>
-                    <div class="middle"><a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jachimowski-Pawel">GITHUB</a></div>
-                    <div class="bottom"><a href="/pracownicy/org.php">Organizacja</a></div>
-                    <div class="sub"><a href="/pracownicy/FAgregat.php">Funkcje Agregujace</a></div>
-                    <div class="super"><a href="/pracownicy/dataiczas.php">Data i czas</a></div>
-                    <div class="text-bottom"><a href="/pracownicy/danedobazy.php">Dane do bazy</a></div>
-                    <div class="baseline"><a href="/biblioteka/ksiazki.php">Książki</a></div>
-                    </h9>
-=======
                 <?php include("menu.php") ?>
-
->>>>>>> Stashed changes
                 </div>
                 <div class="right">
                     
